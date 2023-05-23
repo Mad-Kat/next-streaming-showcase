@@ -1,5 +1,3 @@
-import wrapPromise from "@/lib/wrapPromise";
-
 export const fetchFromAPI = () => {
   const promise = new Promise<string>((resolve, reject) => {
     setTimeout(() => {
