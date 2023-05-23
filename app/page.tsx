@@ -41,6 +41,24 @@ export default function Home() {
             Server components streaming
           </Link>
         </li>
+        <li>
+          <Link
+            href="/cc-blocking-use"
+            prefetch={false}
+            className="hover:text-blue-400"
+          >
+            Client components blocking with use
+          </Link>
+        </li>
+        <li>
+          <Link
+            href="/cc-streaming-use"
+            prefetch={false}
+            className="hover:text-blue-400"
+          >
+            Client components streaming with use
+          </Link>
+        </li>
       </ul>
     </main>
   );
