@@ -5,7 +5,7 @@ export default function Page() {
   return (
     <main>
       <Link href="/">Home</Link>
-      <h1>Client components blocking</h1>
+      <h1>Client components blocking with use</h1>
       <CCBlockingUse />
     </main>
   );

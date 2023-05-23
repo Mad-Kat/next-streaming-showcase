@@ -5,7 +5,7 @@ export default function Page() {
   return (
     <main>
       <Link href="/">Home</Link>
-      <h1>Client components streaming</h1>
+      <h1>Client components streaming with use</h1>
       <CCStreamingUse />
     </main>
   );
