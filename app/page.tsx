@@ -2,8 +2,13 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center gap-4 p-24">
-      <h1 className="text-3xl">Showcasing Streaming</h1>
+    <main className="flex flex-col gap-4 p-24 items-start">
+      <h1 className="text-3xl uppercase font-bold bg-gradient-to-r from-green-300 to-blue-500 text-transparent bg-clip-text">
+        Showcasing Streaming
+      </h1>
+      <h2 className="text-xl bg-gradient-to-r from-green-300 to-blue-500 text-transparent bg-clip-text">
+        Showcasing client components
+      </h2>
       <ul>
         <li>
           <Link
@@ -32,6 +37,11 @@ export default function Home() {
             Client components streaming
           </Link>
         </li>
+      </ul>
+      <h2 className="text-xl mt-5 bg-gradient-to-r from-green-300 to-blue-500 text-transparent bg-clip-text">
+        Showcasing server components
+      </h2>
+      <ul>
         <li>
           <Link
             href="/rsc-blocking"
@@ -50,6 +60,11 @@ export default function Home() {
             Server components streaming
           </Link>
         </li>
+      </ul>
+      <h2 className="text-xl mt-5 bg-gradient-to-r from-green-300 to-blue-500 text-transparent bg-clip-text">
+        Showcasing use
+      </h2>
+      <ul>
         <li>
           <Link
             href="/cc-blocking-use"
