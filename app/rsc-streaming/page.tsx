@@ -1,11 +1,18 @@
 import RSCStreaming from "@/components/rsc-streaming";
 import Link from "next/link";
 
+export const dynamic = "force-dynamic";
+
 export default function Page() {
   return (
-    <main>
-      <Link href="/">Home</Link>
-      <h1>Server components streaming</h1>
+    <main className="p-24">
+      <Link href="/" prefetch={false}>
+        {"<- Home"}
+      </Link>
+
+      <h1 className="text-3xl my-4 uppercase font-bold bg-gradient-to-r from-green-300 to-blue-500 text-transparent bg-clip-text">
+        Server components streaming
+      </h1>
       <RSCStreaming />
     </main>
   );

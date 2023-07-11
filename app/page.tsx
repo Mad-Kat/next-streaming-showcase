@@ -12,15 +12,6 @@ export default function Home() {
       <ul>
         <li>
           <Link
-            href="/cc-use-effect"
-            prefetch={false}
-            className="hover:text-blue-400"
-          >
-            Client components with use effect data fetching
-          </Link>
-        </li>
-        <li>
-          <Link
             href="/cc-blocking"
             prefetch={false}
             className="hover:text-blue-400"
@@ -28,6 +19,16 @@ export default function Home() {
             Client components blocking
           </Link>
         </li>
+        <li>
+          <Link
+            href="/cc-use-effect"
+            prefetch={false}
+            className="hover:text-blue-400"
+          >
+            Client components with use effect data fetching
+          </Link>
+        </li>
+
         <li>
           <Link
             href="/cc-streaming"
